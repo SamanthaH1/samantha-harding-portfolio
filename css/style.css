@@ -1,0 +1,196 @@
+body {
+	-webkit-font-smoothing:antialiased;
+}
+#resume_button {
+	font-family: 'Roboto', sans-serif;	
+    background-color: #282e3a;
+    color: #eeee33;
+    width: 100px;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+.content {
+	margin-left:auto;
+	margin-right:auto;
+}
+.about_me h2, .about_me_right_side h2, .content h2 {
+	font-family: 'Roboto', sans-serif;
+	text-align:left;
+}
+.content h2 {
+	color:#ffff33;
+}
+.about_me_right_side h2 {
+	padding-top:20px;
+}
+.about_me h2, .about_me_right_side h2, .about_me p, .about_me_right_side p, .about_me_right_side ul li {
+	color:#282e3a;
+}
+.about_me_right_side ul li {
+	list-style-type: none;
+}
+.about_me p, .about_me_right_side p, .about_me_right_side ul li {
+	font-family: 'Judson', serif;
+}
+.top-navigation {
+	background-color: #fff;
+	position:fixed;
+	width:100%;
+	top:0;
+	height:3rem;
+}
+.top-navigation > .content {
+	height: 43px;
+	margin: 0px auto;
+}
+.top-navigation .links {
+	float:right;
+	font-size:16px;
+	-webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+.top-navigation .links li a {
+	text-decoration:none;
+}
+.top-navigation .links li a {
+	color: #333333;
+	padding: 16px;
+}
+.top-navigation .links li a:hover {
+	cursor: pointer;
+    color: #ffff33;
+    background-color: #282e3a;
+}
+.logo {
+	margin-top:5px;
+}
+.introduction {
+	background-image: url('../images/home_img.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30.938rem;
+	text-align:center;
+	margin-top:3rem;
+}
+#diamond {
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+#diamond ul {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:0px;
+}
+#diamond ul li {
+	list-style-type: none;
+}
+#diamond ul li h2 {
+	font-family: 'Roboto', sans-serif;
+}
+.about_me {
+	float: left;
+}
+.projects {
+	float:left;
+	width:100%;
+	background-color:#282e3a;
+	padding-bottom:45px;
+}
+.projects h2 {
+	text-align:center;
+}
+.project_item {
+	float:left;
+	padding: 15px 0px 0px 15px;
+}
+.project_item img {
+	border: 3px solid #fff;
+}
+.contact {
+	float:left;
+	width:100%;
+	padding-bottom:45px;
+}
+.contact h2 {
+	color:#282e3c;
+}
+footer {
+	float:left;
+	width:100%;
+	background-color:#282e3a;
+	padding: 20px 0px 35px 0px;	
+}
+.fa, .social p {
+	color:#fff;
+	float:left;
+}
+.fa {
+	padding-left:28px;
+}
+.social p {
+    margin: 10px 0px 0px 10px;
+}
+#footer {
+	width:40%;
+}
+
+
+@media only screen and (min-width: 970px) {
+.content {
+	width: 970px;
+}
+.top-navigation > .content {
+	width: 970px;
+}
+.about_me {
+	width:75%;
+}
+.about_me img {
+	float: left;
+    padding: 20px 10px 0px 0px;
+}
+}
+@media only screen and (max-width: 970px) {
+.profile_pic {
+	text-align:center;
+}
+.content {
+	width:96%;
+}
+}
+@media only screen and (min-width: 532px) {
+#diamond {
+	background-image: url('../images/header_img.png');
+	height: 30.938rem;
+}
+}
+@media only screen and (min-width: 400px) and (max-width: 532px) {
+#diamond {
+	background-image: url('../images/header_img_400.png');
+	height: 27.938rem;
+}
+}
+@media only screen and (min-width: 400px) {
+#diamond ul {
+    padding-top: 79px;	
+}
+}
+@media only screen and (max-width: 400px) {
+#diamond {
+	background-image: url('../images/header_img_340.png');
+	height: 27.938rem;
+}
+.introduction {
+	margin: 0em;
+}
+#diamond ul li h2 {
+	font-size: 1.2em;
+}
+#diamond ul {
+    padding-top: 134px;	
+}
+}
+
